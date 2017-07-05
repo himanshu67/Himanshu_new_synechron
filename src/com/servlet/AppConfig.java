@@ -16,6 +16,7 @@ import org.apache.coyote.http11.Http11AprProtocol;
     javax.servlet.Filter.class
 })
 public class AppConfig implements ServletContainerInitializer {
+	
 	@Override
 	public void onStartup(Set<Class<?>> arg0, ServletContext appContext)
 			throws ServletException {
@@ -29,5 +30,7 @@ public class AppConfig implements ServletContainerInitializer {
 		dispatcher.setLoadOnStartup(1);
 		dispatcher.addMapping("/");
   }
+	
 
 }
+    
