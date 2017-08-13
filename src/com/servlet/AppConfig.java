@@ -9,7 +9,7 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRegistration;
 import javax.servlet.annotation.HandlesTypes;
 
-import org.apache.coyote.http11.Http11AprProtocol;
+
 
 @HandlesTypes({
     javax.servlet.http.HttpServlet.class,
