@@ -19,13 +19,7 @@ public class AppConfig implements ServletContainerInitializer {
 	@Override
 	public void onStartup(Set<Class<?>> arg0, ServletContext appContext)
 			throws ServletException {
-		System.out.println(" 123in startup himanshu-->>>");
-
-		System.out.println(" in startup himanshu-->>>");
-		//System.out.println(" in startup himanshu in shreton hotel-->>>");
-
-		System.out.println(" in startup himanshu12333-->>>");
-		System.out.println(" in startup himanshu in shreton hotel-->>>");
+		
         for (Iterator iterator = arg0.iterator(); iterator.hasNext();) {
 			Class<?> class1 = (Class<?>) iterator.next();
 		}
