@@ -9,7 +9,6 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRegistration;
 import javax.servlet.annotation.HandlesTypes;
 
-import org.apache.coyote.http11.Http11AprProtocol;
 
 @HandlesTypes({
     javax.servlet.http.HttpServlet.class,
@@ -22,6 +21,7 @@ public class AppConfig implements ServletContainerInitializer {
 			throws ServletException {
 		System.out.println(" 123in startup himanshu-->>>");
 		System.out.println(" in startup himanshu-->>>");
+		System.out.println(" in startup himanshu in shreton hotel-->>>");
 		for (Iterator iterator = arg0.iterator(); iterator.hasNext();) {
 			Class<?> class1 = (Class<?>) iterator.next();
 		}
