@@ -20,9 +20,13 @@ public class AppConfig implements ServletContainerInitializer {
 	public void onStartup(Set<Class<?>> arg0, ServletContext appContext)
 			throws ServletException {
 		System.out.println(" 123in startup himanshu-->>>");
+
 		System.out.println(" in startup himanshu-->>>");
 		//System.out.println(" in startup himanshu in shreton hotel-->>>");
-		for (Iterator iterator = arg0.iterator(); iterator.hasNext();) {
+
+		System.out.println(" in startup himanshu12333-->>>");
+		System.out.println(" in startup himanshu in shreton hotel-->>>");
+        for (Iterator iterator = arg0.iterator(); iterator.hasNext();) {
 			Class<?> class1 = (Class<?>) iterator.next();
 		}
 		ServletRegistration.Dynamic dispatcher = appContext.addServlet(
